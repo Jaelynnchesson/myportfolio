@@ -1,0 +1,102 @@
+/* top navigation */
+.topnav {
+    background-color: #393C5C;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #2B2D43;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #8C94E1;
+    color: white;
+  }
+/* END navigation */
+
+/* FONTS */
+@font-face {
+    font-family: PoppinsThin;
+    src: url(poppins/Poppins-Thin.ttf);
+  }
+  @font-face {
+    font-family: PoppinsSemiBold;
+    src: url(poppins/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: PoppinsMedium;
+    src: url(poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: PoppinsRegular;
+    src: url(poppins/Poppins-Medium.ttf);
+  }
+
+ 
+h1 {
+    font-family: "PoppinsMedium";
+    line-height: 1;
+    color: black;
+}
+h2 {
+    font-family: "PoppinsSemiBold";
+    line-height: 1;
+    color: black;
+}
+
+h3 {
+    font-family: "PoppinsRegular";
+       line-height: 1 ;
+       color: black;
+}
+h4 {
+    font-family: "PoppinsThin";
+       line-height: 1.5 ;
+       color: black;
+}
+
+body {
+  margin: 0;
+  font-family: PoppinsSemiBold;
+}
+/* END FONTS */
+
+
+
+
+* {
+box-sizing: border-box;
+}
+
+.header {
+text-align: center;
+padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+
+.column img {
+margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}

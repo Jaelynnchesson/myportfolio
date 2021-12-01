@@ -1,0 +1,156 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #393C5C;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #2B2D43;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #8C94E1;
+    color: white;
+  }
+
+  /* END NAV*/
+
+
+  div {
+    display: block;
+       }
+       
+   
+   
+   @font-face {
+    font-family: PoppinsThin;
+    src: url(poppins/Poppins-Thin.ttf);
+  }
+  @font-face {
+    font-family: PoppinsSemiBold;
+    src: url(poppins/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: PoppinsMedium;
+    src: url(poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: PoppinsRegular;
+    src: url(poppins/Poppins-Medium.ttf);
+  }
+
+ 
+h1 {
+    font-family: "PoppinsMedium";
+    line-height: 1;
+    color: black;
+}
+h2 {
+    font-family: "PoppinsSemiBold";
+    line-height: 1;
+    color: black;
+}
+
+h3 {
+    font-family: "PoppinsRegular";
+       line-height: 1.2 ;
+       color: black;
+}
+h4 {
+    font-family: "PoppinsThin";
+       line-height: 1.6 ;
+       color: black;
+}
+
+
+   .grid-container-one {
+       display: grid;
+       grid-template-columns: 50% 50%;
+       margin-top: 10px;
+   }
+   .quickinfo {
+       background-color: lightblue;
+       text-align: center;
+       padding: 35px;
+   }    
+   .profsummary {
+       background-color: rgb(199, 199, 199);
+       text-align: center;
+       padding: 40px
+   }
+
+   .grid-container-two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.skills {
+    background-color: rgb(199, 199, 199);
+    text-align: left;
+    padding: 35px;
+}    
+.workhistory {
+    background-color: white;
+    text-align: left;
+    padding: 40px
+}
+
+body {
+    margin: 0;
+    font-family: PoppinsSemiBold;
+  }
+
+
+
+
+
+
+
+
+  .grid_items {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 0;
+    grid-row-gap: 5px;
+  }
+  .grid_items > div {
+    background-color: #a8addd;
+    padding: 30px;
+  }
+  .grid_items > div:nth-child(3n + 2) {
+    background-color: lightgrey;
+  }
+  .grid_items > div:nth-child(3n) {
+    background-color: lightgrey;
+  }
+  @media only screen and (min-width: 640px) {
+    .grid_items {
+      grid-template-columns: 50% 50%;
+      grid-column-gap: 1%;
+      grid-row-gap: 5px;
+    }
+    .grid_items > div {
+      padding: 30px;
+    }
+  }
+  @media only screen and (min-width: 981px) {
+    .grid_items {
+      grid-template-columns: 50% 50%;
+      grid-row-gap: 5px;
+    }
+    .grid_items > div {
+      padding: 30px;
+    } }

@@ -1,0 +1,258 @@
+div {
+    display: block;
+       }
+body {
+    background-color: #cccfeb;
+      }
+       
+/* NAVIGATION */
+.topnav {
+    background-color: #393C5C;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #2B2D43;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #8C94E1;
+    color: white;
+  }
+   
+/* END NAVIGATION */
+
+/* FONTS */
+
+  @font-face {
+    font-family: PoppinsThin;
+    src: url(poppins/Poppins-Thin.ttf);
+  }
+  @font-face {
+    font-family: PoppinsSemiBold;
+    src: url(poppins/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: PoppinsMedium;
+    src: url(poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: PoppinsRegular;
+    src: url(poppins/Poppins-Medium.ttf);
+  }
+
+ 
+h1 {
+    font-family: "PoppinsMedium";
+    line-height: 1;
+    color: black;
+}
+h2 {
+    font-family: "PoppinsSemiBold";
+    line-height: 1;
+    color: black;
+}
+
+h3 {
+    font-family: "PoppinsRegular";
+       line-height: 1 ;
+       color: black;
+}
+h4 {
+    font-family: "PoppinsThin";
+       line-height: 1.5 ;
+       color: black;
+}
+
+h5 {
+  font-family: "PoppinsMedium";
+  line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+h6 {
+  font-family: "PoppinsMedium";
+  /* line-height: 0; */
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  display: inline;
+  margin-left: 200px;
+}
+
+h7 {
+  font-family: "PoppinsMedium";
+  /* line-height: 0; */
+  color: 8C94E1;
+  text-align: center;
+  font-size: 100px;
+  display: inline;
+  margin-left: 200px;
+}
+h8 {
+  font-family: "PoppinsThin";
+  color:white;
+  text-align: center;
+  font-size: 70px;
+  display: inline;
+  margin-top: 20px;
+}
+h9{
+  font-family: "PoppinsThin";
+  color:white;
+  text-align: left;
+  font-size: 70px;
+  display: inline;
+  margin-left: 20px;
+
+}
+h10 {
+  font-family: "PoppinsMedium";
+  color:#8C94E1;
+  text-align: center;
+  font-size: 50px;
+  display: inline;
+  margin-left: 20px; 
+}
+
+h11 {
+  font-family: "PoppinsMedium";
+  color:#8C94E1;
+  text-align: center;
+  font-size: 30px;
+  display: inline;
+  margin-left: 20px; 
+}
+body {
+  margin: 0;
+  font-family: PoppinsSemiBold;
+}
+/* END FONTS */
+   
+
+.container {
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 70;
+    left: 10;
+    opacity: 0.4;
+    background: #8C94E1;
+       
+  }
+  
+  .overlay {
+    z-index: 1;
+    margin: 90px;
+    background: #ffffff;
+    
+    
+  }
+
+  /* BUTTON */
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+    
+  }
+  .button1:hover {
+    background-color: #393C5C;
+    color: white;
+  }
+
+  .button1 {background-color: #8C94E1;} 
+
+  /* END BUTTON */
+
+
+
+
+
+
+
+/* .homepage-box-one{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.left-box{
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: left;
+}
+.right-box{
+background-color: white;
+} */
+
+
+
+
+.grid_items {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+ 
+}
+.grid_items > div {
+  background-color: white;
+  padding: 20px;
+}
+.grid_items > div:nth-child(3n + 2) {
+  background-color: white;
+}
+@media only screen and (min-width: 640px) {
+  .grid_items {
+    grid-template-columns: 50% 50%;
+    font-size: 16px;
+   
+  }
+  .grid_items > div {
+    padding: 20px;
+  }
+}
+
+
+/* Q&A questions block */
+.questions{
+  padding: 10px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  font-size: small;
+}

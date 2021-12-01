@@ -1,0 +1,241 @@
+div {
+  display: block;
+     }
+body {
+  background-color: #cccfeb;
+    }
+     
+/* NAVIGATION */
+.topnav {
+  background-color: #393C5C;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #2B2D43;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #8C94E1;
+  color: white;
+}
+ 
+/* END NAVIGATION */
+
+/* FONTS */
+
+@font-face {
+  font-family: PoppinsThin;
+  src: url(poppins/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(poppins/Poppins-Medium.ttf);
+}
+
+
+h1 {
+  font-family: "PoppinsMedium";
+  line-height: 1;
+  color: black;
+}
+h2 {
+  font-family: "PoppinsSemiBold";
+  line-height: 1;
+  color: black;
+}
+
+h3 {
+  font-family: "PoppinsRegular";
+     line-height: 1 ;
+     color: black;
+}
+h4 {
+  font-family: "PoppinsThin";
+     line-height: 1.5 ;
+     color: black;
+}
+
+h5 {
+font-family: "PoppinsMedium";
+line-height: 1;
+color: white;
+text-align: center;
+}
+h8 {
+  font-family: "PoppinsThin";
+  color:white;
+  text-align: center;
+  font-size: 70px;
+  display: inline;
+  margin-top: 20px;
+}
+h9{
+  font-family: "PoppinsThin";
+  color:white;
+  text-align: left;
+  font-size: 70px;
+  display: inline;
+  margin-left: 20px;
+
+}
+h10 {
+  font-family: "PoppinsMedium";
+  color:#8C94E1;
+  text-align: center;
+  font-size: 50px;
+  display: inline;
+  margin-left: 20px; 
+}
+
+h11 {
+  font-family: "PoppinsMedium";
+  color:#8C94E1;
+  text-align: center;
+  font-size: 30px;
+  display: inline;
+  margin-left: 20px; 
+}
+
+body {
+  margin: 0;
+  font-family: PoppinsSemiBold;
+}
+/* END FONTS */
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: center;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 500px;
+position: relative;
+margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: #393C5C;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: white;
+}
+
+/* Caption text */
+.text {
+color: #130b25;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #000000;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+
+.header{
+  padding: 10px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  font-size: small;
+}
+
+.iphone{
+  padding: 10px;
+  display:grid;
+  grid-template-columns: 33% 34% 33%;
+}
